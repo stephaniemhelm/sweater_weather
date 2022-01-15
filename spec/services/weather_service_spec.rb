@@ -33,5 +33,7 @@ RSpec.describe WeatherService do
     expect(result[:current][:weather].first[:main]).to be_a String
     expect(result[:current][:weather].first).to have_key :icon
     expect(result[:current][:weather].first[:icon]).to be_a String
+    expect(result[:hourly]).to be_a Array
+    expect(result[:daily]).to be_a Array
   end
 end

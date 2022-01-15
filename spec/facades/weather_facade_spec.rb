@@ -937,4 +937,18 @@ RSpec.describe WeatherFacade do
     expect(first_hour.conditions).to be_a String
     expect(first_hour.icon).to be_a String
   end
+
+  it 'can get daily weather for a location' do
+    latitude = 38.841772
+    longitude = -106.132562
+
+    result = WeatherFacade.get_daily_weather(latitude, longitude)
+
+    first_day = result.first
+
+    expect(first_day.minimum_temperature).to be_a Float
+    expect(first_day.maximum_temperature).to be_a Float
+    expect(first_day.conditions).to be_a String
+    expect(first_day.icon).to be_a String
+  end
 end
