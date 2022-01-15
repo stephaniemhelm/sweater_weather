@@ -925,4 +925,16 @@ RSpec.describe WeatherFacade do
     expect(today.conditions).to eq("Clear")
     expect(today.icon).to eq("01d")
   end
+
+  it 'can get hourly weather for a location' do
+    latitude = 38.841772
+    longitude = -106.132562
+
+    result = WeatherFacade.get_hourly_weather(latitude, longitude)
+    first_hour = result.first
+
+    expect(first_hour.temperature).to be_a Float
+    expect(first_hour.conditions).to be_a String
+    expect(first_hour.icon).to be_a String
+  end
 end
