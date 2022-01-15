@@ -2,8 +2,9 @@ require 'rails_helper'
 
 RSpec.describe MapquestService do
   it 'can get mapquest data' do
-    result = MapquestService.get_latitude_and_longitude('Buena Vista, CO')
-  
+    location = 'Buena Vista, CO'
+    result = MapquestService.get_latitude_and_longitude(location)
+
     expect(result).to be_a Hash
     expect(result).to have_key :results
     expect(result[:results]).to be_a Array
