@@ -1,6 +1,7 @@
 # Sweater Weather
 
 Sweater Weather is a Ruby on Rails Application used to consume and expose data.  The data is exposed through 5 different endpoints.
+
 This application uses Ruby 2.7.2 and Rails 5.2.6.
 
 ## Application Setup 
