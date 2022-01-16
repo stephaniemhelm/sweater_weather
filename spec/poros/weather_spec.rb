@@ -1,16 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe WeatherFacade do
-  it 'can get weather for a location' do
-    latitude = 38.841772
-    longitude = -106.132562
+RSpec.describe Weather do
 
-    result = WeatherFacade.get_weather_data(latitude, longitude)
-
-    expect(result).to be_a Weather
-  end
-
-  it 'has weather attributes' do
+  it 'is an instance of weather' do
     data = {:lat=>38.8418,
        :lon=>-106.1326,
        :timezone=>"America/Denver",

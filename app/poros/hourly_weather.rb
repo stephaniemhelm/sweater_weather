@@ -6,6 +6,7 @@ class HourlyWeather
               :icon
 
   def initialize(data)
+    #require "pry"; binding.pry
     @datetime = Time.at(data[:dt])
     @temperature = kelvin_to_farenheit(data[:temp])
     @conditions = data[:weather].first[:main]

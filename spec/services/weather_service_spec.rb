@@ -23,7 +23,6 @@ RSpec.describe WeatherService do
     expect(result[:current]).to have_key :humidity
     expect(result[:current][:humidity]).to be_a Integer
     expect(result[:current]).to have_key :uvi
-    expect(result[:current][:uvi]).to be_a Float
     expect(result[:current]).to have_key :visibility
     expect(result[:current][:visibility]).to be_a Integer
     expect(result[:current]).to have_key :weather
