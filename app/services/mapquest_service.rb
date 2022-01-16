@@ -7,7 +7,4 @@ class MapquestService < BaseService
     end
     format_json(response)
   end
-
-
-
 end
