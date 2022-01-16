@@ -14,8 +14,9 @@ RSpec.describe 'Get /api/v1/image' do
     expect(image_response[:data][:type]).to eq("image")
     expect(image_response[:data][:attributes]).to have_key :location
     expect(image_response[:data][:attributes]).to have_key :image_url
-    expect(image_response[:data][:attributes]).to have_key :source
     expect(image_response[:data][:attributes]).to have_key :description
-    expect(image_response[:data][:attributes]).to have_key :artist_name
+    expect(image_response[:data][:attributes]).to have_key :credit
+    expect(image_response[:data][:attributes][:credit]).to have_key :source
+    expect(image_response[:data][:attributes][:credit]).to have_key :artist_name
   end
 end
