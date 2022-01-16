@@ -23,4 +23,5 @@ localhost:3000
 
 ## Requesting Database Endpoint Items
 
-- `GET /api/v1/forecast?location=`                 :uses location parameter to consume and expose the forecast of the location
+- `GET /api/v1/forecast?location=`                 :uses location parameter to consume and expose the forecast for the location
+- 'GET /api/v1/image?location='                    :uses location parameter to consume and expose an image for the location
