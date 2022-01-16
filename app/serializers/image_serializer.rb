@@ -1,5 +1,5 @@
 class ImageSerializer
 
   include JSONAPI:: Serializer
-  attributes :location, :image_url, :source, :description, :artist_name
+  attributes :location, :image_url, :description, :credit
 end
