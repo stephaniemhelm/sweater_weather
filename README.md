@@ -1,24 +1,25 @@
-# README
+# Sweater Weather
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sweater Weather is a Ruby on Rails Application used to consume and expose data.  The data is exposed through 5 different endpoints.
+This application uses Ruby 2.7.2 and Rails 5.2.6.
 
-Things you may want to cover:
+## Application Setup 
 
-* Ruby version
+Follow these steps from terminal:
+```
+cd into desired directory
+git clone https://github.com/stephaniemhelm/sweater_weather
+cd sweater_weather
+bundle install
+rails db:{create,migrate}
+bundle exec rspec
+rails server
+```
+Navigate to the browser:
+```
+localhost:3000
+```
 
-* System dependencies
+## Requesting Database Endpoint Items
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- `GET /api/v1/forecast?location=`                 :uses location parameter to consume and expose the forecast of the location
