@@ -26,3 +26,4 @@ localhost:3000
 - `GET /api/v1/forecast?location=`                 :uses location parameter to consume and expose the forecast for the location
 - `GET /api/v1/image?location=`                    :uses location parameter to consume and expose an image for the location
 - `POST /api/v1/users`                             :creates a new user in the database and generates a unique api key
+- `POST /api/v1/sessions`                          :creates a new session for the user after verifying email and password
