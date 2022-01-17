@@ -918,4 +918,11 @@ RSpec.describe WeatherFacade do
 
       expect(@weather).to be_a Weather
   end
+
+  it 'can get weather for a location destination' do
+    destination = 'Denver, CO'
+
+    data = WeatherFacade.get_destination_weather(destination)
+
+  end
 end
