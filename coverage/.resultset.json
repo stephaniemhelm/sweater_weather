@@ -1,15 +1,15 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/stephaniemhelm/projects/sweater_weather/spec/models/user_spec.rb": {
+      "/Users/stephaniemhelm/projects/sweater_weather/spec/features/api_key_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          2,
-          2,
-          2,
+          1,
+          null,
+          0,
           null,
           null
         ]
@@ -300,33 +300,14 @@
           1,
           1,
           1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/stephaniemhelm/projects/sweater_weather/app/models/user.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
           null,
           1,
           null,
-          null
-        ]
-      },
-      "/Users/stephaniemhelm/projects/sweater_weather/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1642368421
+    "timestamp": 1642379186
   }
 }
