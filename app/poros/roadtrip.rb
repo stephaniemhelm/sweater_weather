@@ -23,9 +23,9 @@ class Roadtrip
       {}
     elsif time > 48
       days = (time / 24) - 1
-      { temperature: weather[:daily][days][:temp], conditions: weather[:daily][days][:weather][0][:main]}
+      { temperature: kelvin_to_farenheit(weather[:daily][days][:temp]), conditions: weather[:daily][days][:weather][0][:main]}
     else time <= 48
-      { temperature: weather[:hourly][index][:temp], conditions: weather[:hourly][index][:weather][0][:main]}
+      { temperature: kelvin_to_farenheit(weather[:hourly][index][:temp]), conditions: weather[:hourly][index][:weather][0][:main]}
     end
   end
 
@@ -35,5 +35,9 @@ class Roadtrip
     else
       travel_time[:route][:formattedTime]
     end
+  end
+
+  def kelvin_to_farenheit(temperature)
+    ((temperature - 273.15) * 1.8 + 32).round(2)
   end
 end
