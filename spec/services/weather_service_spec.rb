@@ -17,9 +17,9 @@ RSpec.describe WeatherService do
     expect(result[:current]).to have_key :sunset
     expect(result[:current][:sunset]).to be_a Integer
     expect(result[:current]).to have_key :temp
-    expect(result[:current][:temp]).to be_a Float
+    expect(result[:current][:temp]).to be_a Numeric
     expect(result[:current]).to have_key :feels_like
-    expect(result[:current][:feels_like]).to be_a Float
+    expect(result[:current][:feels_like]).to be_a Numeric
     expect(result[:current]).to have_key :humidity
     expect(result[:current][:humidity]).to be_a Integer
     expect(result[:current]).to have_key :uvi

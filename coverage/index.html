@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-01-18T07:45:31-07:00">2022-01-18T07:45:31-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-01-18T08:09:27-07:00">2022-01-18T08:09:27-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -8312,7 +8312,7 @@
 
             
 
-            <code class="ruby">      @weather = Weather.new(data)</code>
+            <code class="ruby">    weather = Weather.new(data)</code>
           </li>
         </div>
       
@@ -8334,7 +8334,7 @@
 
             
 
-            <code class="ruby">      expect(@weather).to be_a Weather</code>
+            <code class="ruby">    expect(weather).to be_a Weather</code>
           </li>
         </div>
       
@@ -8693,7 +8693,7 @@
 
             
 
-            <code class="ruby">      credit = Credit.new(data)</code>
+            <code class="ruby">    credit = Credit.new(data)</code>
           </li>
         </div>
       
@@ -8715,7 +8715,7 @@
 
             
 
-            <code class="ruby">      expect(credit.source).to eq(&quot;https://api.unsplash.com/users/haydenhatchphoto/photos&quot;)</code>
+            <code class="ruby">    expect(credit.source).to eq(&quot;https://api.unsplash.com/users/haydenhatchphoto/photos&quot;)</code>
           </li>
         </div>
       
@@ -8726,7 +8726,7 @@
 
             
 
-            <code class="ruby">      expect(credit.artist_name).to eq(&quot;Hayden Hatch&quot;)</code>
+            <code class="ruby">    expect(credit.artist_name).to eq(&quot;Hayden Hatch&quot;)</code>
           </li>
         </div>
       
@@ -23547,7 +23547,7 @@
 
             
 
-            <code class="ruby">    expect(result[:current][:temp]).to be_a Float</code>
+            <code class="ruby">    expect(result[:current][:temp]).to be_a Numeric</code>
           </li>
         </div>
       
@@ -23569,7 +23569,7 @@
 
             
 
-            <code class="ruby">    expect(result[:current][:feels_like]).to be_a Float</code>
+            <code class="ruby">    expect(result[:current][:feels_like]).to be_a Numeric</code>
           </li>
         </div>
       

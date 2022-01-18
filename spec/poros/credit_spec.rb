@@ -6,9 +6,9 @@ RSpec.describe Credit do
 
     data = image_data
 
-      credit = Credit.new(data)
+    credit = Credit.new(data)
 
-      expect(credit.source).to eq("https://api.unsplash.com/users/haydenhatchphoto/photos")
-      expect(credit.artist_name).to eq("Hayden Hatch")
+    expect(credit.source).to eq("https://api.unsplash.com/users/haydenhatchphoto/photos")
+    expect(credit.artist_name).to eq("Hayden Hatch")
   end
 end

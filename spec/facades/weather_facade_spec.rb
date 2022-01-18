@@ -12,9 +12,9 @@ RSpec.describe WeatherFacade do
 
   it 'has weather attributes' do
     data = weather_data
-      @weather = Weather.new(data)
+    weather = Weather.new(data)
 
-      expect(@weather).to be_a Weather
+    expect(weather).to be_a Weather
   end
 
   it 'can get weather for a location destination' do
