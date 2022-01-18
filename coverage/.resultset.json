@@ -1392,7 +1392,7 @@
           1,
           null,
           1,
-          0,
+          1,
           null,
           null
         ]
@@ -1503,8 +1503,46 @@
           null,
           null
         ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/poros/books.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          5,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1642526545
+    "timestamp": 1642527248
   }
 }

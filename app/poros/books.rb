@@ -3,16 +3,15 @@ class Books
   attr_reader :id,
               :destination,
               :forecast,
-              :total_books,
+              :total_books_found,
               :books
 
   def initialize(data, title, quantity, weather)
     @id = nil
     @destination = "#{title}"
     @forecast = books_forcast(weather)
-    @total_books = data[:numFound]
+    @total_books_found = data[:numFound]
     @books = book_information(data)
-
   end
 
   def books_forcast(weather)
@@ -24,6 +23,12 @@ class Books
   end
 
   def book_information(data)
-
-  end 
+    data[:docs].first(5).map do |book|
+      {
+        isbn: book[:isbn],
+        title: book[:title],
+        publisher: book[:publisher]
+      }
+    end
+  end
 end
