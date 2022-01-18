@@ -5,6 +5,6 @@ class LibraryFacade
     weather = WeatherFacade.get_destination_weather(title)
 
     require "pry"; binding.pry
-    Book.new(data, title, quantity, weather)
+    Books.new(data, title, quantity, weather)
   end
 end
