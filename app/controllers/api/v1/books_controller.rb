@@ -1,7 +1,7 @@
 class Api::V1::BooksController < ApplicationController
 
   def show
-    title = params[:title]
+    title = params[:location]
     quantity = params[:quantity]
 
     books = LibraryFacade.get_book_data(title, quantity)

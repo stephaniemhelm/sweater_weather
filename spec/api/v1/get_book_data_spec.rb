@@ -4,7 +4,7 @@ RSpec.describe 'Get /api/v1/book-search' do
 
   it 'can get book data for a title' do
 
-    get '/api/v1/book-search?title=Denver, CO&quantity=5'
+    get '/api/v1/book-search?location=Denver, CO&quantity=5'
 
     expect(response).to be_successful
 
