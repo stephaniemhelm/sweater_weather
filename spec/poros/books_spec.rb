@@ -1,13 +1,17 @@
 require 'rails_helper'
 
-RSpec.describe LibraryFacade do
-  it 'can get book data for a location' do
+RSpec.describe Books do
+  it 'has book attributes' do
     title = 'Denver, CO'
     quantity = 5
 
     result = LibraryFacade.get_book_data(title, quantity)
-    
+
     expect(result).to be_a Books
+    expect(result.id).to eq(nil)
+    expect(result.forecast).to be_a Hash
+    expect(result.forecast).to have_key :summary
+    expect(result.forecast).to have_key :temperature
     expect(result.total_books_found).to eq(35)
     expect(result.destination).to eq("Denver, CO")
     expect(result.books.count).to eq(5)
