@@ -27,4 +27,4 @@ localhost:3000
 - `GET /api/v1/image?location=`                    :uses location parameter to consume and expose an image for the location
 - `POST /api/v1/users`                             :creates a new user in the database and generates a unique api key
 - `POST /api/v1/sessions`                          :creates a new session for the user after verifying email and password
-- `POST /api/v1/roadtrip`                          :creates a roadtrip using origin and destination, to expose travel time and weather information
+- `POST /api/v1/roadtrip`                          :creates a roadtrip using origin and destination parameters, to expose travel time and weather information
