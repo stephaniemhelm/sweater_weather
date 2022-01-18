@@ -17,4 +17,15 @@ RSpec.describe MapquestService do
     expect(result[:results][0][:locations][0][:latLng]).to have_key :lng
   end
 
+  it 'can get mapquest data' do
+    origin = 'Buena Vista, CO'
+    destination = 'Denver, CO'
+
+    result = MapquestService.get_roadtrip_data(origin, destination)
+
+    expect(result).to be_a Hash
+    expect(result).to have_key :route
+    expect(result[:route]).to have_key :formattedTime
+    expect(result[:route][:formattedTime]).to be_a String
+  end
 end

@@ -1,15 +1,30 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/stephaniemhelm/projects/sweater_weather/spec/features/api_key_spec.rb": {
+      "/Users/stephaniemhelm/projects/sweater_weather/spec/facades/roadtrip_facade_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
+          1,
           null,
-          0,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
@@ -43,10 +58,14 @@
           null,
           null,
           null,
-          1,
           null,
-          0,
-          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           1,
           null,
@@ -300,6 +319,156 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/facades/roadtrip_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/services/mapquest_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/services/base_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          6,
+          null,
+          null,
+          1,
+          6,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/facades/weather_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/facades/mapquest_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/poros/location.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/services/weather_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/poros/roadtrip.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          2,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          1,
           null,
           1,
           null,
@@ -308,6 +477,6 @@
         ]
       }
     },
-    "timestamp": 1642379186
+    "timestamp": 1642464682
   }
 }
