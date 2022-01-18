@@ -13,6 +13,7 @@
           null,
           0,
           null,
+<<<<<<< HEAD
           0,
           null,
           0,
@@ -29,6 +30,24 @@
           0,
           0,
           0,
+=======
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
           null,
           null
         ]
@@ -1394,6 +1413,32 @@
           1,
           1,
           null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/spec/api/v1/get_forecast_data_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -1509,6 +1554,41 @@
           null
         ]
       },
+      "/Users/stephaniemhelm/projects/sweater_weather/spec/facades/library_facade_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/facades/library_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          3,
+          3,
+          null,
+          3,
+          null,
+          null
+        ]
+      },
       "/Users/stephaniemhelm/projects/sweater_weather/spec/facades/mapquest_facade_spec.rb": {
         "lines": [
           1,
@@ -1529,8 +1609,13 @@
           1,
           null,
           1,
+<<<<<<< HEAD
           0,
           0,
+=======
+          8,
+          8,
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
           null,
           null
         ]
@@ -1615,9 +1700,14 @@
           null,
           null,
           1,
+<<<<<<< HEAD
           0,
           null,
           0,
+=======
+          6,
+          6,
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
           null,
           null
         ]
@@ -1659,6 +1749,7 @@
           null,
           1,
           1,
+<<<<<<< HEAD
           0,
           0,
           null,
@@ -1675,6 +1766,24 @@
           0,
           0,
           0,
+=======
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
           null,
           null
         ]
@@ -1690,6 +1799,7 @@
           null,
           null,
           1,
+<<<<<<< HEAD
           0,
           0,
           0,
@@ -1709,6 +1819,27 @@
           0,
           null,
           0,
+=======
+          3,
+          3,
+          3,
+          3,
+          3,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null,
+          1,
+          3,
+          null,
+          15,
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
           null,
           null,
           null,
@@ -2045,11 +2176,56 @@
           1,
           null,
           1,
+<<<<<<< HEAD
           0,
           null,
           null,
           1,
           0,
+=======
+          28,
+          null,
+          null,
+          1,
+          28,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/spec/services/library_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/services/library_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          4,
+          4,
+          4,
+          null,
+          4,
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
           null,
           null
         ]
@@ -2094,11 +2270,19 @@
           1,
           null,
           1,
+<<<<<<< HEAD
           0,
           0,
           0,
           null,
           0,
+=======
+          9,
+          9,
+          9,
+          null,
+          9,
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
           null,
           null,
           1,
@@ -2159,6 +2343,133 @@
           1,
           null,
           1,
+<<<<<<< HEAD
+=======
+          9,
+          9,
+          9,
+          9,
+          null,
+          9,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/controllers/api/v1/books_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/poros/location.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          8,
+          8,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/serializers/books_serializer.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/controllers/api/v1/forecast_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/serializers/forecast_serializer.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/controllers/api/v1/image_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/serializers/image_serializer.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/stephaniemhelm/projects/sweater_weather/app/poros/roadtrip.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          2,
+          1,
+          1,
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
           0,
           0,
           0,
@@ -2170,6 +2481,10 @@
         ]
       }
     },
+<<<<<<< HEAD
     "timestamp": 1642547061
+=======
+    "timestamp": 1642530366
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
   }
 }

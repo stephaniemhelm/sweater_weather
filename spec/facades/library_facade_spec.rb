@@ -6,7 +6,11 @@ RSpec.describe LibraryFacade do
     quantity = 5
 
     result = LibraryFacade.get_book_data(title, quantity)
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 4f8918534c4eb6e5dbd6cdeaacddf7a8db3c8562
     expect(result).to be_a Books
     expect(result.total_books_found).to eq(35)
     expect(result.destination).to eq("Denver, CO")
