@@ -16,6 +16,13 @@ rails db:{create,migrate}
 bundle exec rspec
 rails server
 ```
+
+## API Key Requests:
+
+- [MapQuest Geocoding API](https://developer.mapquest.com/documentation/geocoding-api/)
+- [Open Weather API](https://openweathermap.org/api/one-call-api)
+- [Unsplash API](https://unsplash.com/documentation)
+
 Navigate to the browser:
 ```
 localhost:3000
