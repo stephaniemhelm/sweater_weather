@@ -37,7 +37,7 @@ RSpec.describe Roadtrip do
     destination = 'Mexico City'
 
     result = RoadtripFacade.get_roadtrip_data(origin, destination)
-
+    
     expect(result).to be_a Roadtrip
     expect(result.id).to eq(nil)
     expect(result.start_city).to eq('Seatle, WA')
