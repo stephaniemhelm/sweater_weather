@@ -6,8 +6,14 @@ RSpec.describe RoadtripFacade do
       destination = 'Denver, CO'
 
       result = RoadtripFacade.get_roadtrip_data(origin, destination)
-      #require "pry"; binding.pry
 
+      expect(result).to be_a Roadtrip
+      expect(result.id).to eq(nil)
+      expect(result.start_city).to eq('Buena Vista, CO')
+      expect(result.end_city).to eq('Denver, CO')
+      expect(result.travel_time).to eq("02:13:46")
+      expect(result.weather_at_eta).to have_key :temperature
+      expect(result.weather_at_eta).to have_key :conditions
   end
 
   it 'can get roadtrip data sad path' do
@@ -15,10 +21,12 @@ RSpec.describe RoadtripFacade do
       destination = 'Denver, CO'
 
       result = RoadtripFacade.get_roadtrip_data(origin, destination)
-      #require "pry"; binding.pry
 
+      expect(result).to be_a Roadtrip
+      expect(result.id).to eq(nil)
+      expect(result.start_city).to eq('London')
+      expect(result.end_city).to eq('Denver, CO')
+      expect(result.travel_time).to eq("Impossible")
+      expect(result.weather_at_eta).to eq({})
   end
-
-
-
 end
